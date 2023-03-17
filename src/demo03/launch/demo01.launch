@@ -1,0 +1,5 @@
+<launch deprecated="弃用声明">
+    <node pkg="turtlesim" type="turtlesim_node" name="my_turtle" output="screen" respawn="true" respawn_delay="2" ns="xiaobai"/>
+    <include file="$(find demo03)/launch/demo.launch" ns="xiaohuang"/>
+
+</launch>

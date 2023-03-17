@@ -1,0 +1,8 @@
+prefix=/home/yunfang/demo01_ws/install
+
+Name: demo02
+Description: Description of demo02
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

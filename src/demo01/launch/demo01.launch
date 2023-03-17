@@ -1,0 +1,6 @@
+<launch>
+    <!-- output="screen" 将日志输出到屏幕上-->
+    <node pkg="demo01" type="helloworld" name="helloworld" output="screen" />
+    <node pkg="turtlesim" type="turtlesim_node" name="t1"/>
+    <node pkg="turtlesim" type="turtle_teleop_key" name="key1" />
+</launch>
